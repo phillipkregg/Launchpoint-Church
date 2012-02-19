@@ -34,7 +34,9 @@ $(document).ready(function() {
 		
 		routes: {
 			'home': 'home',
-			'about': 'about'
+			'vision': 'vision',
+			'life-groups': 'lifegroups',
+			'seo': 'seo'
 		},
 		
 		
@@ -59,12 +61,28 @@ $(document).ready(function() {
 			
 		},
 		
-		about: function() {			
+		vision: function() {			
 			this.content = $("#backbone-content");
 			this.content.empty();
-			aboutTemplate = _.template($("#about-template").html());
+			visionTemplate = _.template($("#vision-template").html());
 			
-			this.content.html(aboutTemplate);
+			this.content.html(visionTemplate);
+		},
+		
+		lifegroups: function() {
+			this.content = $("#backbone-content");
+			this.content.empty();
+			lifeTemplate = _.template($("#life-group-template").html());
+			this.content.html(lifeTemplate);
+			
+		},
+		
+		
+		seo: function() {
+			this.content = $("#backbone-content");
+			this.content.empty();
+			seoTemplate = _.template($("#seo-template").html());
+			this.content.html(seoTemplate);
 		}
 		
 		
