@@ -41,8 +41,9 @@ $(document).ready(function() {
 		initialize: function() {
 			
 			this.content = $("#backbone-content");
-			this.mainView = new MainView;
-			this.content.html(this.mainView);
+			mainTemplate = _.template($("#main-template").html());
+			this.content.empty();
+			this.content.html(mainTemplate).hide().fadeIn('fast');
 			
 			
 			
@@ -52,7 +53,7 @@ $(document).ready(function() {
 			
 			this.content = $("#backbone-content");
 			mainTemplate = _.template($("#main-template").html());
-			this.content.fadeOut('fast');
+			this.content.empty();
 			this.content.html(mainTemplate).hide().fadeIn('fast');
 			
 			
