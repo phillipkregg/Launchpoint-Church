@@ -36,7 +36,8 @@ $(document).ready(function() {
 			'home': 'home',
 			'vision': 'vision',
 			'life-groups': 'lifegroups',
-			'seo': 'seo'
+			'seo': 'seo',
+			'gatherings': 'gatherings'
 		},
 		
 		
@@ -83,6 +84,25 @@ $(document).ready(function() {
 			this.content.empty();
 			seoTemplate = _.template($("#seo-template").html());
 			this.content.html(seoTemplate);
+		},
+		
+		
+		gatherings: function() {
+			
+			this.content = $("#backbone-content");
+			this.content.empty();
+			gatheringsTemplate = _.template($("#gatherings-template").html());
+			this.content.html(gatheringsTemplate);
+			
+            $('#map_canvas').gmap().bind('init', function(ev, map) {
+			$('#map_canvas').gmap('addMarker', {'position': '34.758397,-87.667251', 'bounds': true, 'zoom': '7', 'center': '34.758397,-87.667251'}).click(function() {
+				$('#map_canvas').gmap('openInfoWindow', {'content': 'Hello World!'}, this);
+			});
+		});
+				
+        
+			 
+			
 		}
 		
 		
