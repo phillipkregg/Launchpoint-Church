@@ -1,11 +1,14 @@
 class PagesController < ApplicationController
   
+  before_filter :authenticate_user!
+  
   layout 'admin.html.erb'
   
   # GET /pages
   # GET /pages.xml
   def index
     @pages = Page.all
+    
 
     respond_to do |format|
       format.html # index.html.erb
@@ -18,6 +21,7 @@ class PagesController < ApplicationController
   def show
     @pages = Page.all
     @page = Page.find(params[:id])
+    
 
     respond_to do |format|
       format.html # show.html.erb

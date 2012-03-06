@@ -1,5 +1,7 @@
 class BlurbsController < ApplicationController
   
+  before_filter :authenticate_user!
+  
   layout 'admin.html.erb'
   
   # GET /blurbs

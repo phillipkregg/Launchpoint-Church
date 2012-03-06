@@ -12,8 +12,9 @@
     <%= stylesheet_link_tag 'bootstrap-responsive.css' %>
     <%= stylesheet_link_tag 'elements.less', :rel => 'stylesheet/less' %>
     <%= stylesheet_link_tag 'main.less', :rel => 'stylesheet/less' %>  
+    <%= stylesheet_link_tag 'kendo-metro.css' %>
     <link rel="stylesheet" href="/stylesheets/kendo.common.min.css" />
-  	<link rel="stylesheet" href="/stylesheets/kendo.default.min.css" />  
+  	<link rel="stylesheet" href="/stylesheets/kendo.default.min.css" /> 
     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/smoothness/jquery-ui.css" />
     
    
@@ -102,7 +103,9 @@
       	
       	$( "#accordion" ).accordion();
      
-    
+    	$("#grid").kendoGrid({
+	         
+	      });
 
       
   	});

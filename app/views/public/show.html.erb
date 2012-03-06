@@ -5,17 +5,24 @@
 <h2><%= @page.title %></h2>
 
 <% if @page.title == "Life Groups"  %>
-<div id="accordion">
-	<% @lifegroups.each do |lifegroup| %>	
-		<h2><a href="#"><%= lifegroup.title %></a></h2>
-		<div>
-			<p><%= safe lifegroup.when %></p>
-			<p><%= safe lifegroup.location %></p>
-			<p><%= safe lifegroup.content %></p>
-		</div>	
+<table id="grid">
+<thead>
+	<th data-field="title">Group</th>
+	<th data-field="when">When</th>
+	<th data-field="location">Where</th>
+	<th data-field="content">Notes</th>
+</thead>
+<tbody>
+	<% @lifegroups.each do |lifegroup| %>
+	<tr>	
+		<td><%= lifegroup.title %></td>		
+		<td><%= safe lifegroup.when %></td>
+		<td><%= safe lifegroup.location %></td>
+		<td><%= safe lifegroup.content %></td>
+	</tr>	
 	<% end %>
-</div>
+</table>
 <% end %>
-
+</tbody>
 
 <p><%= safe @page.content %></p>
