@@ -1,0 +1,21 @@
+
+
+
+
+<h2><%= @page.title %></h2>
+
+<% if @page.title == "Life Groups"  %>
+<div id="accordion">
+	<% @lifegroups.each do |lifegroup| %>	
+		<h2><a href="#"><%= lifegroup.title %></a></h2>
+		<div>
+			<p><%= safe lifegroup.when %></p>
+			<p><%= safe lifegroup.location %></p>
+			<p><%= safe lifegroup.content %></p>
+		</div>	
+	<% end %>
+</div>
+<% end %>
+
+
+<p><%= safe @page.content %></p>

@@ -1,0 +1,34 @@
+<div class="block">
+  <div class="secondary-navigation">
+    <ul class="wat-cf">
+      <li class="first"><%= link_to "#{t("web-app-theme.list", :default => "List")}", events_path  %></li>
+      <li><%= link_to "#{t("web-app-theme.new", :default => "New")}", new_event_path %></li>
+      <li class="active"><%= link_to "#{t("web-app-theme.show", :default => "Show")}", event_path %></li>
+    </ul>
+  </div>          
+  <div class="content">
+    <div class="inner">
+      
+        <p>
+          <b><%= t("activerecord.attributes.event.title", :default => t("activerecord.labels.title", :default => "Title")) %>:</b>
+          <%= @event.title %>
+        </p>
+
+        <p>
+          <b><%= t("activerecord.attributes.event.when", :default => t("activerecord.labels.when", :default => "When")) %>:</b>
+          <%= @event.when %>
+        </p>
+
+        <p>
+          <b><%= t("activerecord.attributes.event.content", :default => t("activerecord.labels.content", :default => "Content")) %>:</b>
+          <%= safe @event.content %>
+        </p>
+      <div class="wat-cf">
+        <%= link_to image_tag("web-app-theme/icons/application_edit.png", :alt => "#{t("web-app-theme.edit", :default=> "Edit")}") + " " + t("web-app-theme.edit", :default=> "Edit"), edit_event_path(@event), :class => "button" %> 
+        <%= link_to image_tag("web-app-theme/icons/cross.png", :alt => "#{t("web-app-theme.delete", :default=> "Delete")}") + " " + t("web-app-theme.delete", :default => "Delete"), event_path(@event), :method => "delete", :class => "button", :confirm => "#{t("web-app-theme.confirm", :default => "Are you sure?")}" %>
+      </div>      
+    </div>
+  </div>
+</div>
+
+<% content_for :sidebar, render(:partial => 'shared/sidebar') -%>
