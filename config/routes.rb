@@ -1,4 +1,4 @@
-TwitterBootstrap::Application.routes.draw do
+LaunchpointChurch::Application.routes.draw do
   
   devise_for :users
 
@@ -15,7 +15,7 @@ TwitterBootstrap::Application.routes.draw do
 
   get "home/index"
   
-  match "admin", :to => "posts#index"
+  match "admin", :to => "pages#index"
   
   root :to => "public#index"
 

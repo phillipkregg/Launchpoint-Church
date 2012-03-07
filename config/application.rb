@@ -6,7 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env) if defined?(Bundler)
 
-module TwitterBootstrap
+module LaunchpointChurch
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -16,9 +16,7 @@ module TwitterBootstrap
     # config.autoload_paths += %W(#{config.root}/extras)
     config.autoload_paths += %W( #{config.root}/app/models/ckeditor )
     
-    config.to_prepare do
-      Devise::SessionsController.layout "sign"
-    end
+    
 
     # Only load the plugins named here, in the order given (default is alphabetical).
     # :all can be used as a placeholder for all plugins not explicitly named.
@@ -43,5 +41,9 @@ module TwitterBootstrap
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+    
+    config.to_prepare do
+      Devise::SessionsController.layout "sign"
+    end
   end
 end

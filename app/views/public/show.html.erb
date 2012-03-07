@@ -7,10 +7,10 @@
 <% if @page.title == "Life Groups"  %>
 <table id="grid">
 <thead>
-	<th data-field="title">Group</th>
-	<th data-field="when">When</th>
-	<th data-field="location">Where</th>
-	<th data-field="content">Notes</th>
+	<th data-field="title"><strong>Group Name</strong></th>
+	<th data-field="when"><strong>Date / Time</strong></th>
+	<th data-field="location"><strong>Location</strong></th>
+	<th data-field="content"><strong>Notes</strong></th>
 </thead>
 <tbody>
 	<% @lifegroups.each do |lifegroup| %>
