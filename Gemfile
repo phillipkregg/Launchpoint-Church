@@ -14,6 +14,7 @@ gem 'web-app-theme', '>= 0.6.2'
 gem 'haml-rails'
 gem 'hpricot'
 gem 'ruby_parser'
+gem 'thin'
 
 
 
