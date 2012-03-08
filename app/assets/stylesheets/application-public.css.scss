@@ -1,0 +1,41 @@
+
+$primaryButtonBackground: #f00;
+$navbarBackground: #000;
+
+@import "bootstrap";
+@import "camera";
+
+
+body {
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+  
+  
+@import "bootstrap-responsive";
+
+
+a {
+  color: #09f;
+}
+a:hover {
+  text-decoration: none;
+}
+#back_to_camera {
+  clear: both;
+  display: block;
+  height: 80px;
+  line-height: 40px;
+  padding: 20px;
+}
+.fluid_container {
+  margin: 0 auto;
+  //max-width: 1000px;
+  width: 100%;
+}
+    
+
+
+
+
+

@@ -2,6 +2,7 @@ class PublicController < ApplicationController
       
   def index
     @pages = Page.all
+    @show_header = true
   end
 
   def show

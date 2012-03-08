@@ -8,20 +8,9 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <%= stylesheet_link_tag 'bootstrap.css' %>  
-    <style type="text/css">
-      body {
-        padding-top: 115px;
-        padding-bottom: 40px;
-      }
-    </style>     
-    <%= stylesheet_link_tag 'bootstrap-responsive.css' %>
-    <%= stylesheet_link_tag 'elements.less', :rel => 'stylesheet/less' %>
-    <%= stylesheet_link_tag 'main.less', :rel => 'stylesheet/less' %>  
-    <%= stylesheet_link_tag 'kendo-metro.css' %>
-    <link rel="stylesheet" href="/stylesheets/kendo.common.min.css" />
-  	<link rel="stylesheet" href="/stylesheets/kendo.default.min.css" /> 
     
+    <%= stylesheet_link_tag 'application-all' %>
+    <%= stylesheet_link_tag 'application-public' %>   
    
     
     
@@ -49,7 +38,8 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </a>
-	      <%= link_to "Launch Point Church", public_index_path, :class => "brand logo" %>
+	      <a href="/public"><%= image_tag "launchpoint_logo.png" %><h3>Launch Point Church</h3></a>
+	      <!-- <%= link_to "Launch Point Church", public_index_path, :class => "brand logo" %> -->
 	      <div class="nav-collapse">
 	        <ul class="nav">
 	          <li><%= link_to "Welcome", public_index_path, :class => 'active', :id => 'menu_home' %></li>
@@ -66,11 +56,54 @@
 	  </div>
 	</div>
 
+
+	<% if show_header %>
+	<!-- <div class="hero-unit skydive">
+	    <h2><p>Launch Your Life</p></h2>
+	    <p><a class="btn btn-primary btn-large">Learn more »</a></p>
+    </div> -->
+   
+    <div class="fluid_container">
+    	
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+            <div data-thumb="/assets/slides/thumbs/bridge.jpg" data-src="/assets/slides/bridge.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    These will resize just like everything else. <em>Try to resize the browser window</em>
+                </div>
+            </div>
+            <div data-thumb="/assets/slides/thumbs/leaf.jpg" data-src="/assets/slides/leaf.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    You should also be able to move this photos like on your iphone, <em>navigate the slides by swiping with your fingers</em>
+                </div>
+            </div>
+            <div data-thumb="/assets/slides/thumbs/road.jpg" data-src="/assets/slides/road.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    <em>Church is awesome and stuff!</em>
+                </div>
+            </div>
+            <div data-thumb="/assets/slides/thumbs/sea.jpg" data-src="/assets/slides/sea.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    This is cool <em>I like it</em> because it is cool and stuff
+                </div>
+            </div>
+            <div data-thumb="/assets/slides/thumbs/shelter.jpg" data-src="/assets/slides/shelter.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    I can put links and stuff in here (<a href="http://brucespringsteen.net/" target="_blank">Click here for Bruce!</a>)
+                </div>
+            </div>
+            <div data-thumb="/assets/slides/thumbs/tree.jpg" data-src="/assets/slides/tree.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    This can also be full screen! Awesome!
+                </div>
+            </div>
+        </div><!-- #camera_wrap_1 -->
+    
+    <% end %>
+        
+
     <div id="main-content" class="container">  
     	
-    	<%= ENV['RAILS_ENV'] %>  
-    	
-			<%= yield %>
+    	<%= yield %>
       <hr>
 
       <footer>
@@ -83,17 +116,10 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     
-    <%= javascript_include_tag :defaults %>    
-    <%= javascript_include_tag 'jquery.min.js' %>
-    <script type="text/javascript" src=" https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+   
+        
+    <%= javascript_include_tag 'application-public' %>
     
-    <%= javascript_include_tag 'underscore-min.js' %>
-    <%= javascript_include_tag "less-1.2.2.min.js" %>  
-    <%= javascript_include_tag 'backbone.js' %> 
-    <%= javascript_include_tag 'kendo.all.min.js' %>  
-    <%= javascript_include_tag 'bootstrap.js' %>   
-    //<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <!-- <%= javascript_include_tag 'jquery-ui-map/ui/jquery.ui.map.js' %> -->
 
 
 	<script type="text/javascript">
@@ -108,6 +134,20 @@
     	$("#grid").kendoGrid({
 	         
 	      });
+	      
+	    
+		
+			
+	jQuery('#camera_wrap_1').camera({
+		thumbnails: true,
+		cols: 12,
+		height: '300px'
+	});
+
+	
+
+		
+	
 
       
   	});

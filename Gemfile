@@ -1,12 +1,13 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.10'
+gem 'rails', '3.1.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
 gem 'jquery-rails'
+gem 'eventmachine', "1.0.0.beta.4.1"
 gem 'haml'
 gem 'will_paginate', '3.0.pre2'
 gem 'devise'
@@ -15,7 +16,15 @@ gem 'haml-rails'
 gem 'hpricot'
 gem 'ruby_parser'
 gem 'thin'
+gem 'bootstrap-sass', '~> 2.0.1'
 
+# Gems used only for assets and not required
+# in production environments by default.
+group :assets do
+  gem 'sass-rails'
+  gem 'coffee-rails', "~> 3.1.0"
+  gem 'uglifier'
+end
 
 
 # Use unicorn as the web server
