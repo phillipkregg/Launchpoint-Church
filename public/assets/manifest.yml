@@ -43,15 +43,6 @@ web-app-theme/icons/application_edit.png: web-app-theme/icons/application_edit-1
 web-app-theme/icons/cross.png: web-app-theme/icons/cross-1f87fac86c438386527b5e7d5ceecb0e.png
 web-app-theme/icons/key.png: web-app-theme/icons/key-29787eda275775953e8a6df45a4f20c6.png
 web-app-theme/icons/tick.png: web-app-theme/icons/tick-09de3f730b3b6ef960450a506b0916a9.png
-camera.min.js: camera.min-b740fc52ace3f9a557f02f2fcce08b5e.js
-jquery-1.7.1.min.js: jquery-1.7.1.min-92db3e9645bf381db699af5c85229722.js
-jquery-ui.min.js: jquery-ui.min-4258e47b40673a02bedfda178628bfba.js
-jquery.easing.1.3.js: jquery.easing.1.3-4e0f2a2a2d711719c85542a2bc852b28.js
-jquery.mobile.customized.min.js: jquery.mobile.customized.min-9a13a65e98bdea2ba27e19743f4f045d.js
-kendo.all.min.js: kendo.all.min-c7bd6d222b8d2a423c51287b7cc21d0e.js
-less-1.2.2.min.js: less-1.2.2.min-a3358d6a16f47ec7cca827ed4b2e6c9e.js
-public/bootstrap.min.js: public/bootstrap.min-2949445e61d4f8705f05c401e1c56d2e.js
-slides.min.jquery.js: slides.min.jquery-761bc249c37932e94c52b9ce900af16a.js
 admin/web-app-theme/themes/default/fonts/museo700-regular-webfont.eot: admin/web-app-theme/themes/default/fonts/museo700-regular-webfont-43829a4e4ce50fa801d84cdaa9549425.eot
 admin/web-app-theme/themes/default/fonts/museo700-regular-webfont.svg: admin/web-app-theme/themes/default/fonts/museo700-regular-webfont-8b953d3db0ad867434e717b13dce8bbc.svg
 admin/web-app-theme/themes/default/fonts/museo700-regular-webfont.ttf: admin/web-app-theme/themes/default/fonts/museo700-regular-webfont-ff1b7c0badfc298ad4fe766404b2af5a.ttf
@@ -79,12 +70,8 @@ all/Default/loading.gif: all/Default/loading-3de3adc9987374d7fc675a2a21a960bd.gi
 all/Default/slider-h.gif: all/Default/slider-h-667955464025270fd7180958cdc229ea.gif
 all/Default/slider-v.gif: all/Default/slider-v-d41077824e1d4eb14c8fa2d91c896b84.gif
 all/Default/sprite.png: all/Default/sprite-541afa318823fbfaaa5790dd4dfb4335.png
-all/kendo.common.min.css: all/kendo.common.min-66c447055b6a571cf3ebfa877b9d122b.css
-all/kendo.default.min.css: all/kendo.default.min-cead7ff70f35f93a55af440d060a7311.css
 all/textures/glass.png: all/textures/glass-47307b49770638384172f82ab0cfda48.png
 all/textures/highlight.png: all/textures/highlight-4c9b6dbb8826c37d11b59af76c197859.png
-public/bootstrap-responsive.min.css: public/bootstrap-responsive.min-728ee5f2fddb72bf848f0da3e4f544de.css
-public/bootstrap.min.css: public/bootstrap.min-daf384b6638966fa4f50cb6af619216a.css
 web-app-theme/themes/activo/images/arrow.png: web-app-theme/themes/activo/images/arrow-b95360d1579bdff5e7f302ba9e1e892c.png
 web-app-theme/themes/activo/images/boxbar-background.png: web-app-theme/themes/activo/images/boxbar-background-959785dec75fbc4aefce988e48097c86.png
 web-app-theme/themes/activo/images/button-background-active.png: web-app-theme/themes/activo/images/button-background-active-c741a083682126650cd9e1ad6a425b7f.png
@@ -110,4 +97,3 @@ web-app-theme/themes/default/fonts/museosans_500_italic-webfont.eot: web-app-the
 web-app-theme/themes/default/fonts/museosans_500_italic-webfont.svg: web-app-theme/themes/default/fonts/museosans_500_italic-webfont-e4f8e5af35b8254695dd5f60d7fd5a50.svg
 web-app-theme/themes/default/fonts/museosans_500_italic-webfont.ttf: web-app-theme/themes/default/fonts/museosans_500_italic-webfont-24888687a278cc3c2b818cff14de404c.ttf
 web-app-theme/themes/default/fonts/museosans_500_italic-webfont.woff: web-app-theme/themes/default/fonts/museosans_500_italic-webfont-fb40de90a2bb32e75897686fd5ddb081.woff
-jquery.min.js: jquery.min-17322428695737103f15e8b9db8b5909.js

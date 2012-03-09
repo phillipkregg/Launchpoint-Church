@@ -1,9 +1,10 @@
 
 $primaryButtonBackground: #f00;
-$navbarBackground: #000;
 
-@import "bootstrap";
-@import "camera";
+
+
+@import "camera.css";
+@import "bootstrap.css";
 
 
 body {
@@ -12,7 +13,7 @@ body {
 }
   
   
-@import "bootstrap-responsive";
+@import "bootstrap-responsive.css";
 
 
 a {

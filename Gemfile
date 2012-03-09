@@ -1,23 +1,22 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0'
+gem 'rails', '3.1.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
 gem 'jquery-rails'
+gem 'devise'
+
 
 group :development do
   gem 'hpricot'
   gem 'ruby_parser'
   gem 'haml-rails'
   gem 'haml'
-  gem 'will_paginate', '3.0.pre2'
-  gem 'devise'
-  gem 'thin'
-  gem 'bootstrap-sass', '~> 2.0.1'
-  gem 'web-app-theme', '>= 0.6.2'
+  gem 'will_paginate', '3.0.pre2' 
+  gem 'thin'  
   gem 'eventmachine', "1.0.0.beta.4.1"
 end
 
@@ -25,6 +24,8 @@ end
 # in production environments by default.
 group :assets do
   gem 'sass-rails'
+  gem 'bootstrap-sass', '~> 2.0.1'
+  gem 'web-app-theme', '>= 0.6.2'
   gem 'coffee-rails', "~> 3.1.0"
   gem 'uglifier'
 end

@@ -9,10 +9,11 @@ LaunchpointChurch::Application.configure do
 
   # Full error reports are disabled and caching is turned on
   config.consider_all_requests_local       = false
-  config.action_controller.perform_caching = true
+  config.action_controller.perform_caching = false
 
   # Specifies the header that your server uses for sending files
   config.action_dispatch.x_sendfile_header = "X-Sendfile"
+  #config.action_dispatch.x_sendfile_header = "X-Accel-Redirect"
 
   # For nginx:
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
@@ -34,7 +35,7 @@ LaunchpointChurch::Application.configure do
   
   
   
-  config.action_dispatch.x_sendfile_header = "X-Accel-Redirect"
+  
   
   config.serve_static_assets = true
 
@@ -59,7 +60,7 @@ LaunchpointChurch::Application.configure do
   
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = true
-  config.assets.precompile += %w[*.png *.jpg *.jpeg *.gif] 
+  #config.assets.precompile += ['camera.css', 'bootstrap', 'bootstrap-responsive', 'jpg', 'jpeg', 'png', 'gif']
   
   # Generate digests for assets URLs
   config.assets.digest = true
