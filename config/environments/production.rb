@@ -32,6 +32,8 @@ LaunchpointChurch::Application.configure do
   # Disable Rails's static asset server
   # In production, Apache or nginx will already do this
   
+  
+  
   config.action_dispatch.x_sendfile_header = "X-Accel-Redirect"
   
   config.serve_static_assets = true
