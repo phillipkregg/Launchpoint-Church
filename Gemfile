@@ -7,7 +7,6 @@ gem 'rails', '3.1.0'
 
 gem 'sqlite3'
 gem 'jquery-rails'
-gem 'eventmachine', "1.0.0.beta.4.1"
 gem 'haml'
 gem 'will_paginate', '3.0.pre2'
 gem 'devise'
@@ -17,6 +16,10 @@ gem 'hpricot'
 gem 'ruby_parser'
 gem 'thin'
 gem 'bootstrap-sass', '~> 2.0.1'
+
+group :development do
+  gem 'eventmachine', "1.0.0.beta.4.1"
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
