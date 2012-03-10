@@ -8,7 +8,8 @@ gem 'rails', '3.1.1'
 gem 'sqlite3'
 gem 'jquery-rails'
 gem 'devise'
-gem 'pg'
+gem 'execjs'
+gem 'therubyracer'
 
 
 group :development do
@@ -18,7 +19,7 @@ group :development do
   gem 'haml'
   gem 'will_paginate', '3.0.pre2' 
   gem 'thin'  
-  gem 'eventmachine', "1.0.0.beta.4.1"
+  gem 'eventmachine'
 end
 
 # Gems used only for assets and not required
