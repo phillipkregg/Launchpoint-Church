@@ -10,24 +10,26 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'execjs'
 gem 'therubyracer'
-
+gem 'sass-rails'
+gem 'bootstrap-sass', '~> 2.0.1'
+gem 'ruby_parser'  
+gem 'will_paginate', '3.0.pre2' 
+gem 'hpricot'
+gem 'haml-rails'
+gem 'haml'
+gem 'web-app-theme', '>= 0.6.2'
 
 group :development do
-  gem 'hpricot'
-  gem 'ruby_parser'
-  gem 'haml-rails'
-  gem 'haml'
-  gem 'will_paginate', '3.0.pre2' 
+  
+  
   gem 'thin'  
   gem 'eventmachine'
 end
 
 # Gems used only for assets and not required
 # in production environments by default.
-group :assets do
-  gem 'sass-rails'
-  gem 'bootstrap-sass', '~> 2.0.1'
-  gem 'web-app-theme', '>= 0.6.2'
+group :assets do  
+  
   gem 'coffee-rails', "~> 3.1.0"
   gem 'uglifier'
 end

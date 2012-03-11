@@ -5,6 +5,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery-ui.min.js
+//= require bootstrap
 //= require kendo.all.min.js
 //= require jquery.mobile.customized.min.js
 //= require jquery.easing.1.3.js
