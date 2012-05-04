@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.1'
+gem 'rails', '3.2.3'
 gem 'pg'
 
 # Bundle edge Rails instead:
@@ -12,7 +12,7 @@ gem 'devise'
 gem 'sass-rails'
 gem 'bootstrap-sass', '~> 2.0.1'
 gem 'ruby_parser'  
-gem 'will_paginate', '3.0.pre2' 
+#gem 'will_paginate', '3.0.pre2' 
 gem 'hpricot'
 gem 'haml-rails'
 gem 'haml'
@@ -26,7 +26,7 @@ end
 # in production environments by default.
 group :assets do  
   
-  gem 'coffee-rails', "~> 3.1.0"
+  gem 'coffee-rails'
   gem 'uglifier'
 end
 
