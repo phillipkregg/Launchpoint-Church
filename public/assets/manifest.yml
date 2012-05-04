@@ -53,6 +53,18 @@ web-app-theme/icons/application_edit.png: web-app-theme/icons/application_edit-8
 web-app-theme/icons/cross.png: web-app-theme/icons/cross-c2651300ae2e326a9727177155b48bf7.png
 web-app-theme/icons/key.png: web-app-theme/icons/key-8080fcbc2bb3da3fb803d911dda59f9e.png
 web-app-theme/icons/tick.png: web-app-theme/icons/tick-749c8298fcbfe4490ba9f7e4a9079637.png
+admin/Silver/editor.png: admin/Silver/editor-d1416f8383e8abd69f6c87ea9c32d00a.png
+admin/Silver/imagebrowser.png: admin/Silver/imagebrowser-cf4d580f9fcd09318ea6ad07158c6525.png
+admin/Silver/loading-image.gif: admin/Silver/loading-image-1eea63ecb0deb52f96c794e7af98e3dd.gif
+admin/Silver/loading.gif: admin/Silver/loading-5dc8a2fe24ec0047302ef70db8e39939.gif
+admin/Silver/slider-h.gif: admin/Silver/slider-h-30e86a290e38cc22b3104849b1c7020c.gif
+admin/Silver/slider-v.gif: admin/Silver/slider-v-6b29c6380e8879f09922b71feb7ecdfd.gif
+admin/Silver/sprite.png: admin/Silver/sprite-62238f29f7e76cb1e4e9beba33214c5a.png
+admin/images/android-sprite.png: admin/images/android-sprite-d416f1bc228f1400e7c6e4607b9d13b1.png
+admin/images/iconmasks.svg: admin/images/iconmasks-1bfd71777d4fd3f2b0fb92447562ae45.svg
+admin/images/ios-sprite.png: admin/images/ios-sprite-df5031feb83fc7da5a07c03199a0dd5e.png
+admin/textures/glass.png: admin/textures/glass-53a68ffd944cfb102975c429d161ffb4.png
+admin/textures/highlight.png: admin/textures/highlight-53f9c3d8dfa7609027a8da5fd6d07b46.png
 admin/web-app-theme/themes/default/fonts/museo700-regular-webfont.eot: admin/web-app-theme/themes/default/fonts/museo700-regular-webfont-db22fa0669eaa4f37b565ffec14545dc.eot
 admin/web-app-theme/themes/default/fonts/museo700-regular-webfont.svg: admin/web-app-theme/themes/default/fonts/museo700-regular-webfont-8703952bd79473bce19abb44b88566fb.svg
 admin/web-app-theme/themes/default/fonts/museo700-regular-webfont.ttf: admin/web-app-theme/themes/default/fonts/museo700-regular-webfont-c64726508eba81137fda18f18b409eca.ttf
@@ -82,5 +94,3 @@ all/Default/slider-v.gif: all/Default/slider-v-43f3c0ea6265c9d348ae65789579f8e7.
 all/Default/sprite.png: all/Default/sprite-e9fd3a5300fc9214d019a5b64b883d35.png
 all/textures/glass.png: all/textures/glass-53a68ffd944cfb102975c429d161ffb4.png
 all/textures/highlight.png: all/textures/highlight-53f9c3d8dfa7609027a8da5fd6d07b46.png
-glass.png: glass-53a68ffd944cfb102975c429d161ffb4.png
-highlight.png: highlight-53f9c3d8dfa7609027a8da5fd6d07b46.png
