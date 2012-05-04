@@ -1,10 +1,13 @@
 ---
 _notes/dwsync.xml: _notes/dwsync-c42b5d60013694eb4fc648e82124037f.xml
+android-sprite.png: android-sprite-265d90f3773a4b14bc49d047242939fd.png
 blank.gif: blank-b378b19d1c6b729ea349e0a418d4a546.gif
 camera-loader.gif: camera-loader-969011464bd2f8df8b8b5ee7d686d3a4.gif
 camera_skins.png: camera_skins-33e4f110f2bcedcfdfb6f0f45555b588.png
 glyphicons-halflings-white.png: glyphicons-halflings-white-33137abcd2c204b90921315632a32a69.png
 glyphicons-halflings.png: glyphicons-halflings-16cd9c1e6492843e6e32e0ab12967378.png
+iconmasks.svg: iconmasks-67cd5ca0e5657cc3c3ec632cbe380e38.svg
+ios-sprite.png: ios-sprite-d8e48d484aba9ff2936345e6d11800ac.png
 launchpoint_logo.png: launchpoint_logo-a1300152a98c0bee1b33625a7d9c4df2.png
 life-groups-tree-logo.jpg: life-groups-tree-logo-646b23a90ef8b125c4f2864f8a88e504.jpg
 patterns/_notes/dwsync.xml: patterns/_notes/dwsync-59f9ccc69b9412b805fff02fc69ab5a4.xml
@@ -72,6 +75,8 @@ all/Default/slider-v.gif: all/Default/slider-v-d41077824e1d4eb14c8fa2d91c896b84.
 all/Default/sprite.png: all/Default/sprite-541afa318823fbfaaa5790dd4dfb4335.png
 all/textures/glass.png: all/textures/glass-47307b49770638384172f82ab0cfda48.png
 all/textures/highlight.png: all/textures/highlight-4c9b6dbb8826c37d11b59af76c197859.png
+glass.png: glass-47307b49770638384172f82ab0cfda48.png
+highlight.png: highlight-4c9b6dbb8826c37d11b59af76c197859.png
 web-app-theme/themes/activo/images/arrow.png: web-app-theme/themes/activo/images/arrow-b95360d1579bdff5e7f302ba9e1e892c.png
 web-app-theme/themes/activo/images/boxbar-background.png: web-app-theme/themes/activo/images/boxbar-background-959785dec75fbc4aefce988e48097c86.png
 web-app-theme/themes/activo/images/button-background-active.png: web-app-theme/themes/activo/images/button-background-active-c741a083682126650cd9e1ad6a425b7f.png
